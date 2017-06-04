@@ -2565,6 +2565,7 @@
 			order: 1;
 			border-radius: 0;
 			width: 30%;
+			margin-right:30px;
 		}
 
 			.spotlight .image img {
@@ -2574,7 +2575,7 @@
 
 		.spotlight .content {
 			padding: 1.3em;
-			margin:0 auto;
+			margin:30px auto;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -2603,7 +2604,13 @@
 			}
 
 		}
+		@media screen and (max-width: 1140px) {
 
+			.spotlight .content {
+
+			}
+
+		}
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
@@ -2617,16 +2624,18 @@
 				}
 
 				.spotlight .content {
-	
 					width: 80%;
 				}
 
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.spotlight .image{
+				display:none;
+			}
 			.spotlight .content {
-				padding: 3em 2em 1em 2em ;
+				margin:20px 0px;
+				padding:1em;
 			}
 
 		}
