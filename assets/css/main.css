@@ -3552,8 +3552,8 @@
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
 				min-height: 0;
+				height:90vh;
 			}
 
 				#banner h2 {
