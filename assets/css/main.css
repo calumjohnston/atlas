@@ -3561,11 +3561,11 @@
 				}
 
 				#banner br {
-					display: none;
+					display: block;
 				}
 
 				#banner .more {
-					display: none;
+					display: block;
 				}
 
 		}
