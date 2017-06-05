@@ -3260,10 +3260,6 @@
 
 		}
 
-	body.is-menu-visible #page-wrapper {
-		opacity: 0.35;
-	}
-
 		body.is-menu-visible #page-wrapper:before {
 			display: block;
 		}
